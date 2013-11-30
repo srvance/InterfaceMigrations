@@ -4,3 +4,11 @@
 *.jar
 *.war
 *.ear
+
+# JavaScript Libraries #
+JavaScript/node_modules/
+
+# JetBrains Files #
+.idea/
+*.iml
+out/
