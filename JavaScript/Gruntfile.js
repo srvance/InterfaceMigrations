@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     shell: {
       test: {
         options: { stdout: true },
-        command: 'jasmine-node spec/'
+        command: './node_modules/.bin/jasmine-node spec/'
       }
     }
   });
